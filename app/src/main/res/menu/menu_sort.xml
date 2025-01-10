@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_by_name"
+        android:title="@string/sort_by_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_priority"
+        android:title="@string/sort_by_priority"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_status"
+        android:title="@string/sort_by_status"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_deadline"
+        android:title="@string/sort_by_deadline"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/export_tasks"
+        android:title="@string/export_tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/import_tasks"
+        android:title="@string/import_tasks"
+        app:showAsAction="never" />
+</menu>

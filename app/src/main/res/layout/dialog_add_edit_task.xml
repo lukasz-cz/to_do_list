@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:autofillHints="Example Title"
+        android:hint="@string/task_title_hint"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:width="300dp"
+        android:autofillHints="Example Description"
+        android:gravity="top"
+        android:hint="@string/task_description_hint"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_deadline_set"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonSetDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:text="@string/set_deadline"
+        tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/spinnerTaskPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/priority_array"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:text="@string/save"
+        tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+</LinearLayout>

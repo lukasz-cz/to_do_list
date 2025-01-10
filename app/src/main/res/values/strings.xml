@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">To-Do List</string>
+    <string name="add_task">Add Task</string>
+    <string name="save">Save</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title_hint">Task Title</string>
+    <string name="task_description_hint">Task Description</string>
+    <string name="no_deadline_set">No deadline set</string>
+    <string name="set_deadline">Deadline</string>
+    <string name="sort_by_name">Sort by Name</string>
+    <string name="sort_by_priority">Sort by Priority</string>
+    <string name="sort_by_status">Sort by Status</string>
+    <string name="sort_by_deadline">Sort by Deadline</string>
+    <string name="export_tasks">Export Tasks</string>
+    <string name="import_tasks">Import Tasks</string>
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>
